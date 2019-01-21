@@ -1,0 +1,30 @@
+{
+  "code":0,
+  "hasInformation":0,
+  "data1":{
+    "identity":3,
+    "managementTel":15785747584,
+    "mechanismFullname":"测试机构aaa",
+    "businessLicense":36454354356435,
+    "legalPerson":"朱一龙",
+    "legalPersonIdnumber":"310113199012047564",
+    "sitesNum":3,
+    "sitesManagerNum":3,
+    "coachNum":2,
+    "assistantNum":4,
+    "qaimg1List":[{"name":"circle.png","url":"http://localhost:8080/static/logo.png"}]
+  },
+  "data2":{
+    "identity":4,
+    "managementTel":15785747584,
+    "mechanismFullname":"测试机构aaa",
+    "businessLicense":36454354356435,
+    "legalPerson":"朱一龙",
+    "legalPersonIdnumber":"310113199012047564",
+    "sitesNum":3,
+    "sitesManagerNum":3,
+    "coachNum":2,
+    "assistantNum":4,
+    "qaimg1List":[{"name":"circle.png","url":"http://localhost:8080/static/logo.png"}]
+  }
+}

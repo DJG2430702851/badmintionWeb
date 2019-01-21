@@ -1,0 +1,106 @@
+@colorRed:#e60010;
+@btnColorRed:#f15660;
+@btnColorRedHover:#f13e4a;
+@btnColorRedFocus:#e6000f;
+@btnColorBlue:#6faae7;
+@btnColorBlueHover:#569ee8;
+@btnColorBlueFocus:#4092e8;
+.elbtn-red,.elbtn-red.is-disabled, .elbtn-red.is-disabled:focus, .elbtn-red.is-disabled:hover{
+	color:#FFFFFF;
+	background-color: @btnColorRed;
+    border: 1px solid @btnColorRed;
+    &:focus{
+    	color:#FFFFFF;
+		background-color: @btnColorRedFocus;
+    	border: 1px solid @btnColorRedFocus;
+    }
+    &:hover{
+    	color:#FFFFFF;
+		background-color: @btnColorRedHover;
+    	border: 1px solid @btnColorRedHover;
+    }
+}
+.elbtn-plain-red{
+	color: @btnColorRed;
+	border: 1px solid @btnColorRed;
+	&:focus{
+		color: @btnColorRed;
+		background-color: transparent;
+    	border: 1px solid @btnColorRed;
+    }
+    &:hover{
+    	color: @btnColorRed;
+		background-color: transparent;
+    	border: 1px solid @btnColorRed;
+    }
+}
+.elbtn-blue{
+	color:#FFFFFF;
+	background-color: @btnColorBlue;
+    border: 1px solid @btnColorBlue;
+    &:focus{
+    	color:#FFFFFF;
+		background-color: @btnColorBlueFocus;
+    	border: 1px solid @btnColorBlueFocus;
+    }
+    &:hover{
+    	color:#FFFFFF;
+		background-color: @btnColorBlueHover;
+    	border: 1px solid @btnColorBlueHover;
+    }
+}
+.xprimary{
+	padding:9px 30px;
+	width:150px;
+}
+.txtbtn-red,.txtbtn-blue{
+	cursor:pointer;
+}
+.txtbtn-red{
+	color: @btnColorRed;
+}
+.txtbtn-blue{
+	color: @btnColorBlue;
+}
+.color-888889{
+	color:#888889 !important;
+}
+.color-ffc039{
+	color:#ffc039 !important;
+}
+.color-orange{
+	color:orange !important;
+}
+.color-blue{
+	color:#66b1ff !important;
+}
+.color-red{
+	color:@colorRed !important;
+}
+.color-green{
+	color:#27c24c !important;
+}
+.xbtn-red{
+	color:@colorRed;
+}
+.xbtn-red[type="primary"]{
+
+}
+.xbtn-red[type="plain"]{
+	background-color:transparent;
+}
+.bgorange{
+	background-color:orange;
+}
+.bggreen{
+	background-color:green;
+}
+.bgred{
+	background-color:@colorRed;
+}
+.xblock{
+	color: #fff;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
